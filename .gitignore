@@ -25,3 +25,5 @@ hs_err_pid*
 # other
 .tags
 *.iml
+.idea
+target/
