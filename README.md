@@ -14,3 +14,4 @@
 
 1. 代码根目录下执行 `mvn clean package`；
 2. 启动本地 kafka 及其依赖进程；
+3. 执行 `MultipleVersionApplication` 方法，在运行正常的情况下 kafka 应该会收到 `message from 0.9.0.1` 和 `message from 1.1.1` 两条消息。
